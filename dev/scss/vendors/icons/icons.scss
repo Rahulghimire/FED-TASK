@@ -1,0 +1,125 @@
+@import 'variables/variables';
+
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3lyb9m');
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3lyb9m#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3lyb9m') format('truetype'),
+        url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3lyb9m') format('woff'),
+        url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3lyb9m##{$icomoon-font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook {
+    &:before {
+        content: $icon-facebook;
+    }
+}
+.icon-github {
+    &:before {
+        content: $icon-github;
+    }
+}
+.icon-linkedin {
+    &:before {
+        content: $icon-linkedin;
+    }
+}
+@font-face {
+    font-family: 'Icons';
+    src: url('fonts/Icons.eot?z7yfb');
+    src: url('fonts/Icons.eot?z7yfb#iefix') format('embedded-opentype'), url('fonts/Icons.ttf?z7yfb') format('truetype'),
+        url('fonts/Icons.woff?z7yfb') format('woff'), url('fonts/Icons.svg?z7yfb#Icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Icons' !important;
+    // speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkmark:before {
+    content: '\e918';
+}
+.icon-close:before {
+    content: '\e919';
+}
+.icon-directionAngle:before {
+    content: '\e91a';
+}
+.icon-directionDown:before {
+    content: '\e91b';
+}
+.icon-tdirectionDown:before {
+    content: '\e91c';
+}
+.icon-directionLeft:before {
+    content: '\e91d';
+}
+.icon-directionRight:before {
+    content: '\e91e';
+}
+.icon-tdirectionRight:before {
+    content: '\e91f';
+}
+.icon-directionUp:before {
+    content: '\e920';
+}
+.icon-tdirectionUp:before {
+    content: '\e921';
+}
+.icon-facebook:before {
+    content: '\e922';
+}
+.icon-refresh:before {
+    content: '\e923';
+}
+.icon-location:before {
+    content: '\e924';
+}
+.icon-hamburger:before {
+    content: '\e925';
+}
+.icon-twitter:before {
+    content: '\e926';
+}
+.icon-linkedin:before {
+    content: '\e927';
+}
+.icon-search:before {
+    content: '\e928';
+    color: #233554;
+}
+.icon-github:before {
+    content: '\e929';
+}

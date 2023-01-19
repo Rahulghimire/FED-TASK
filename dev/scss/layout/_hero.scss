@@ -1,0 +1,50 @@
+.hero {
+    background-color: #f4eee8;
+    &-container {
+        .hero-image-left {
+            &_maxWidth {
+                max-width: 32.7rem;
+                @include media-breakpoint-up(xl) {
+                    max-width: 48.6rem;
+                }
+                @include media-breakpoint-up(md) {
+                    max-width: 39.44rem;
+                }
+            }
+        }
+        .hero-image-right {
+            &_maxWidth {
+                // max-width: 75.4rem;
+
+                @include media-breakpoint-up(xl) {
+                    max-width: 75.4rem;
+                }
+                @include media-breakpoint-up(md) {
+                    max-width: 50.96rem;
+                }
+            }
+        }
+        .hero-image-third {
+            &_maxWidth {
+                max-width: 37.6rem;
+            }
+        }
+    }
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+.hero-border {
+    border-top: 6px solid $sky;
+}
+
+// .hero-image-right_maxWidth {
+//     max-width: 75.4rem;
+// }
+// .hero-image-left_maxWidth {
+//     max-width: 48.6rem;
+// }
+// .hero-image-third-maxWidth {
+//     max-width: 37.6rem;
+// }

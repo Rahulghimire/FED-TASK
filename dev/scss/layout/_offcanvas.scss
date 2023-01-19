@@ -1,0 +1,34 @@
+.offcanvas {
+    color: white;
+    &-header {
+        background-color: $tteal;
+        .btn-close {
+            color: $mint !important;
+        }
+    }
+    &-body {
+        background-color: $tteal;
+        &__list {
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 140%;
+            font-style: normal;
+            &-item {
+                padding-top: 4rem;
+            }
+        }
+    }
+}
+.navbar {
+    min-height: 9.9rem;
+    &-nav {
+        .nav-item {
+            &-link {
+                color: $space;
+                font-family: 'Inter';
+                font-weight: 600;
+            }
+        }
+    }
+}

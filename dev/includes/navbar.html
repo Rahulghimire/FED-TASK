@@ -1,0 +1,71 @@
+<!-- off canvas start -->
+
+<section class="navigation mx-6 p-0">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header border border-1 justify-content-start text-white">
+            <button
+                type="button"
+                class="btn-close align-items-start text-reset m-0 p-0 text-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+            ></button>
+            <figure class="ps-6 p-0 m-0">
+                <img src="./images/nav-logo-white.png" alt="logo-white" />
+            </figure>
+        </div>
+        <div class="offcanvas-body">
+            <div class="">
+                <ul
+                    class="offcanvas-body__list d-flex align-items-center justify-content-center flex-column text-white"
+                >
+                    <li class="offcanvas-body__list-item"><a href="about.html">About</a></li>
+                    <li class="offcanvas-body__list-item"><a href="blog.html">Blog</a></li>
+                    <li class="offcanvas-body__list-item"><a href="team.html">Team</a></li>
+                    <li class="offcanvas-body__list-item"><a href="career.html">Career</a></li>
+                    <li class="offcanvas-body__list-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- navbar start -->
+    <nav class="navbar p-0">
+        <div class="container-fluid align-items-center d-flex flex-row justify-content-between p-0">
+            <div class="align-items-center my-3">
+                <a
+                    data-bs-toggle="offcanvas"
+                    href="#offcanvasExample"
+                    aria-controls="offcanvasExample"
+                    class="text-decoration-none d-xl-none pe-9"
+                >
+                    <i class="icon-hamburger"></i>
+                </a>
+                <a href="/">
+                    <img src="./images/logo.svg" alt="logo" class="img-fluid" />
+                </a>
+            </div>
+            <div class="navbar d-none d-xl-block align-items-center" id="navbarNav">
+                <ul class="navbar-nav mb-2 text-capitalize flex-row justify-content-between p-0">
+                    <li class="nav-item pe-10">
+                        <a class="nav-item-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pe-10">
+                        <a class="nav-item-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item pe-10">
+                        <a class="nav-item-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item pe-10">
+                        <a class="nav-item-link" href="career.html">Career</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-item-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block d-xl-none">
+                @@include('../includes/button/button-global.html', { 'buttonName': 'Join Us Now',
+                'button__hide':'button-global__hide' })
+            </div>
+        </div>
+    </nav>
+</section>

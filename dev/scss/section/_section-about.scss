@@ -1,0 +1,14 @@
+.about {
+    &-container {
+        .about_background-color {
+            background-color: #eaefed;
+            &-maxWidth {
+                max-width: 46.2rem;
+            }
+        }
+    }
+}
+// iframe {
+//     max-width: 46.2rem;
+//     max-height: 27.6rem;
+// }

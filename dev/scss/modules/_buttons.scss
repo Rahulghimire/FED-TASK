@@ -1,0 +1,26 @@
+// .button {
+//     border: 2px solid #222222;
+//     font-size: 1.6rem;
+//     font-style: normal;
+//     font-weight: 600;
+//     font-size: 1.6rem;
+//     padding: 0.6rem 1.7rem;
+//     background-color: none;
+// }
+
+.button-global {
+    padding: 0.6rem 1.7rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border: 2px solid #222222;
+    background-color: none;
+    &__hide {
+        display: none;
+    }
+}
+.button2-global__hide {
+    display: inline-block;
+}
+.button3-global__hide {
+    display: inline-block;
+}

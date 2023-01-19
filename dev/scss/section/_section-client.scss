@@ -1,0 +1,13 @@
+// .client-image-container {
+// }
+
+.client-image-container_border {
+    position: relative;
+}
+.client-image-container_border img {
+    border: 6px solid $sky;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 23.6rem;
+    height: 23.6rem;
+}

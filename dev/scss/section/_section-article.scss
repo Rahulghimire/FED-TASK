@@ -1,0 +1,13 @@
+.article-image-boxShadow {
+    box-shadow: 8px 8px 0px #f5cebe;
+}
+
+.article-image-maxWidth {
+    max-width: 31.9rem;
+    @include media-breakpoint-up(xl) {
+        max-width: 62rem;
+    }
+    @include media-breakpoint-up(md) {
+        max-width: 45.2rem;
+    }
+}
