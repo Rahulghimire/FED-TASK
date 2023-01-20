@@ -1,0 +1,16 @@
+.blogListing {
+    &-borderTop {
+        border-top: 8px solid $space;
+    }
+    &-marginTop {
+        margin-top: 0%;
+        @include media-breakpoint-up(md) {
+            position: relative;
+            margin-top: -25%;
+            z-index: 5;
+        }
+    }
+    &-boxShadow {
+        box-shadow: 10px 10px #eaefed;
+    }
+}
