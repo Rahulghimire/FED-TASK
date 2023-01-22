@@ -1,1 +1,92 @@
-<section class="blogNotes"></section>
+<section class="blogNotes py-10 py-md-20 py-xl-30">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="mb-10 mb-md-20">
+                    <h6 class="text-uppercase">more blog notes</h6>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="blogNotes-container mb-10 mb-md-20">
+                    <ul class="p-0 m-0 blogNotes-container_list d-flex flex-row h6 flex-wrap">
+                        <li class="blogNotes-container_list_item ps-0 pe-0 m-0 text-capitalize">
+                            <a href="">Category:</a>
+                        </li>
+                        <li class="blogNotes-container_list_item ps-0 m-0"><a href="">NEWS</a></li>
+                        <li class="blogNotes-container_list_item m-0 ps-0"><a href="">TRAVEL</a></li>
+                        <li class="blogNotes-container_list_item m-0 ps-0"><a href="">BLOGS</a></li>
+                        <li class="blogNotes-container_list_item m-0 ps-0"><a href="">FACTS</a></li>
+                        <li class="blogNotes-container_list_item m-0 ps-0"><a href="">GLOBAL</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- search button -->
+        <div class="row">
+            <div class="col-12">
+                <div class="blogNotes-flexContainer">
+                    <form class="example d-flex position-relative mb-10 mb-md-0">
+                        <input type="text" name="search" class="form-input" />
+                        <span class="icon-search form-icon-search"></span>
+                    </form>
+
+                    <div class="d-flex flex-row align-self-end">
+                        <h6 class="me-2">Latest</h6>
+                        <div class="dropdown">
+                            <a
+                                class="dropdown-toggle p-o m-0 bg-transparent blogNotes-flexContainer-dropdown_pointer"
+                                id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            ></a>
+                            <ul
+                                class="dropdown-menu bg-mint text-start px-4 py-3 blogNotes-flexContainer-dropDownItem_border"
+                                aria-labelledby="dropdownMenuButton1"
+                            >
+                                <li class="text-uppercase h6 blogNotes-container_borderBottom p-0">
+                                    <a class="dropdown-item p-0" href="#">Alphabetical Order</a>
+                                </li>
+                                <li class="text-uppercase h6 blogNotes-container_borderBottom p-0">
+                                    <a class="dropdown-item p-0" href="#">featured</a>
+                                </li>
+                                <li class="text-uppercase h6 blogNotes-container_borderBottom p-0">
+                                    <a class="dropdown-item p-0" href="#">Latest</a>
+                                </li>
+                                <li class="text-uppercase h6 p-0">
+                                    <a class="dropdown-item p-0" href="#">oldest</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card items start -->
+
+        <div class="row mt-10 mt-md-20">
+            @@include('blog-card.html',{ 'imgSrc':'./images/blog-img-1.jfif', 'altText':'blog-img-1',
+            'title':'Interesting Facts I Bet You Never Knew About BLOGS'})
+
+            @@include('blog-card.html',{ 'imgSrc':'./images/blog-img-2.jfif', 'altText':'blog-img-1',
+            'title':'Everything You Wanted to Know About BLOGS and Were Too Embarrassed to Ask'})
+
+            @@include('blog-card.html',{ 'imgSrc':'./images/blog-img-3.jfif', 'altText':'blog-img-1',
+            'title':'What Can You Do To Save Your BLOGS From Destruction By Social Media?'})
+
+            @@include('blog-card.html',{ 'imgSrc':'./images/blog-img-4.jfif', 'altText':'blog-img-1',
+            'title':'White Paper: Call to NASA for Low-Cost Innovation, New Talent Pipeline in Missions'})
+
+            @@include('blog-card.html',{ 'imgSrc':'./images/blog-img-5.jfif', 'altText':'blog-img-1',
+            'title':'Becoming Friends with a Mars Rover'})
+
+            @@include('blog-card.html',{ 'imgSrc':'./images/blog-img-6.jfif', 'altText':'blog-img-1',
+            'title':'Some Assembly Required: Documentation in Mars Rover Design'})
+            
+        </div>
+        <div class="row">
+            <div class="col-12">
+                @@include('pagination.html')
+            </div>
+        </div>
+    </div>
+</section>

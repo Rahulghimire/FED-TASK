@@ -50,7 +50,15 @@
 @import '../scss/about/about-hero';
 @import '../scss/about/about-services';
 @import '../scss/blog-listing/blog-listing-hero';
+@import '../scss/blog-listing/relatedBlogs';
 
+@import '../scss/blog-listing/blog-notes';
+@import '../scss/blog-listing/single-blog-body';
+@import '../scss/blog-listing/blog-card';
+@import '../scss/blog-listing/pagination';
+@import '../scss/cards/blog-card';
+@import '../scss/contact/contact-hero';
+@import '../scss/contact/contact-form';
 
 // 4. Helpers
 @import '../../node_modules/bootstrap/scss/helpers';

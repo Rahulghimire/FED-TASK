@@ -1,0 +1,13 @@
+.contactHero {
+    &-borderTop {
+        border-top: 8px solid $space;
+    }
+    &-marginTop {
+        margin-top: 0%;
+        @include media-breakpoint-up(md) {
+            position: relative;
+            margin-top: -6%;
+            z-index: 5;
+        }
+    }
+}

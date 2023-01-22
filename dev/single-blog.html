@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @@include('includes/head.html',{'pageTitle':'Tallowed Texts - About Page'})
+    </head>
+    <body>
+        <div class="theme-app">
+            <div class="theme-wrap position-relative">
+                @@include('includes/navbar.html')
+                <main class="theme-main">
+                    <section class="singleBlog py-6 py-md-10 py-xl-30 bg-mint">
+                        <div class="container">
+                            <div class="row">
+                                @@include('includes/components/blog-hero-global.html',
+                                {
+                                    'imgSrc':'./images/single-blog-img.jfif',
+                                    'title':'Interesting Facts I Bet You Never Knew About BLOGS',
+                                    'ratio':'1024x517',
+                                })
+                            </div>
+                        </div>
+                    </section>
+                    
+                    @@include('includes/single-blog/single-blog-body.html') 
+                    
+                    @@include('includes/single-blog/related-blogs.html') 
+
+                </main>
+            </div>
+            @@include('includes/footer.html') @@include('includes/scripts.html')
+        </div>
+    </body>
+</html>

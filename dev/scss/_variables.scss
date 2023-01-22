@@ -74,6 +74,8 @@ $colors: (
     'white': $white,
     'gray': $gray-600,
     'gray-dark': $gray-800,
+    'sky':$sky,
+    'tteal':$tteal,
 ) !default;
 // scss-docs-end colors-map
 
@@ -333,6 +335,7 @@ $theme-colors: (
     'sky': $sky,
     'mint': $mint,
     'peach': $peach,
+    'space': $space,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -436,6 +439,10 @@ $spacers: (
     51: $spacer * 5.1,
     52: $spacer * 5.2,
     53: $spacer * 5.3,
+    54: $spacer * 5.4,
+    55: $spacer * 5.5,
+    56: $spacer * 5.6,
+    57: $spacer * 5.7,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -594,6 +601,10 @@ $aspect-ratios: (
     '904x480': calc(480 / 904 * 100%),
     '486x397': calc(397 / 486 * 100%),
     '698x392': calc(392 / 698 * 100%),
+    '617x347': calc(347 / 617 * 100%),
+    '400x300': calc(300 / 400 * 100%),
+    '1024x517': calc(517 / 1024 * 100%),
+    '776x366': calc(366 / 776 * 100%),
 ) !default;
 // scss-docs-end aspect-ratios
 // stylelint-enable function-disallowed-list
@@ -1583,7 +1594,7 @@ $breadcrumb-border-radius: null !default;
 // scss-docs-start carousel-variables
 $carousel-control-color: $white !default;
 $carousel-control-width: 15% !default;
-$carousel-control-opacity: 0.5 !default;
+$carousel-control-opacity: 1 !default;
 $carousel-control-hover-opacity: 0.9 !default;
 $carousel-control-transition: opacity 0.15s ease !default;
 
@@ -1591,7 +1602,7 @@ $carousel-indicator-width: 30px !default;
 $carousel-indicator-height: 3px !default;
 $carousel-indicator-hit-area-height: 10px !default;
 $carousel-indicator-spacer: 3px !default;
-$carousel-indicator-opacity: 0.5 !default;
+$carousel-indicator-opacity: 1 !default;
 $carousel-indicator-active-bg: $white !default;
 $carousel-indicator-active-opacity: 1 !default;
 $carousel-indicator-transition: opacity 0.6s ease !default;

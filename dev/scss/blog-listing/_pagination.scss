@@ -1,0 +1,28 @@
+.pagination {
+    --bs-pagination-padding-x: -0.2rem;
+    --bs-pagination-hover-color: #fff;
+    --bs-pagination-hover-bg: #fff;
+    --bs-pagination-hover-border-color: #fff;
+
+    .page-link {
+        color: #000;
+        font-size: 1.8rem;
+        border: none;
+        font-weight: 700;
+        font-family: 'Inter';
+    }
+    .active > .page-link,
+    .page-link.active {
+        color: #000;
+        background-color: #fff;
+        outline: none;
+    }
+    .page-item {
+        width: 3.8rem;
+        height: 3.8rem;
+        align-items: center;
+        &_icon {
+            font-size: 1.3rem;
+        }
+    }
+}

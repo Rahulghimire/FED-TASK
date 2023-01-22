@@ -3,11 +3,11 @@
 }
 
 .article-image-maxWidth {
-    max-width: 31.9rem;
-    @include media-breakpoint-up(xl) {
-        max-width: 62rem;
-    }
+    max-width: 45.2rem;
     @include media-breakpoint-up(md) {
         max-width: 45.2rem;
+    }
+    @include media-breakpoint-up(xl) {
+        max-width: 62rem;
     }
 }

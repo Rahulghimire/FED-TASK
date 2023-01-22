@@ -1,18 +1,12 @@
 <section class="blogListing py-6 py-md-10 py-xl-30 bg-mint">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-8">
-                <figure class="ratio ratio-698x392 h-100">
-                    <img src="./images/blog-hero-1.jfif" alt="blog-photo" class="object-fit" />
-                </figure>
-            </div>
-            <div class="col-12 offset-md-4 col-md-8">
-                <div class="bg-sky p-6 p-md-10 p-xl-20 blogListing-borderTop blogListing-marginTop">
-                    <h2 class="text-white">
-                        Vivamus vitae finibus dolor. Suspendisse finibus ante in sapien fermentum.
-                    </h2>
-                </div>
-            </div>
+            @@include('../components/blog-hero-global.html',
+            {
+                'imgSrc':'./images/blog-hero-1.jfif',
+                'title':' Vivamus vitae finibus dolor. Suspendisse finibus ante in sapien fermentum.',
+                'ratio':'698x392',
+            })
             <div class="col-12 offset-xl-1 col-xl-11">
                 <div class="bg-white py-6 px-6 py-md-10 px-md-20 blogListing-boxShadow">
                     <p class="body">November 11, 2021</p>
@@ -22,11 +16,10 @@
                         tristique purus a, commodo metus. Nam commodo turpis eget magna placerat, quis molestie mauris
                         volutpat
                     </p>
-
-                    <button class="button-global" type="button">
-                        Read more
-                        <i class="icon-directionRight"></i>
-                    </button>
+                    <div>
+                        @@include('../button/button-global.html', { 'buttonName': 'Read more',
+                        'button__hide':'button2-global__hide' ,'btnHover':'btnHover1'})
+                    </div>
                 </div>
             </div>
         </div>

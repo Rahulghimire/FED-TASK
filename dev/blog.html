@@ -9,6 +9,12 @@
                 @@include('includes/navbar.html')
                 <main class="theme-main">
                     @@include('includes/blog-listing/blog-listing-hero.html')
+                    @@include('includes/blog-listing/blog-notes.html')
+                    @@include('includes/components/see-blogs.html',{
+                        'title':'Proin pretium risus suscipit viverra mattis. Aliquam non nunc ligula.',
+                        'para':'Integer at neque ac metus fringilla dapibus et eu eros.',
+                        'btnText':'Contact',
+                    })
                 </main>
             </div>
             @@include('includes/footer.html') @@include('includes/scripts.html')

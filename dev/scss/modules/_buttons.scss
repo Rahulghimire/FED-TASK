@@ -21,6 +21,43 @@
 .button2-global__hide {
     display: inline-block;
 }
+
 .button3-global__hide {
     display: inline-block;
+}
+.bgColor {
+    background-color: white;
+}
+.bgColor1 {
+    background-color: $sky;
+    color: white;
+    border: none;
+}
+
+.btnHover1:hover {
+    border: 2px solid $tteal;
+    color: $tteal;
+}
+.btnHover2:hover {
+    background-color: $mint;
+}
+
+.btnHover1[disabled] {
+    border: 2px solid #f4eee8;
+    color: #f4eee8;
+}
+.btnHover2[disabled] {
+    background-color: $space;
+}
+.btnOutline1 {
+    border: 2px solid #eaefed;
+    color: white;
+    background-color: transparent;
+}
+.btnHover3:hover {
+    border: 2px solid $tteal;
+    color: $tteal;
+}
+.btnHover3:hover .btnIcon1 {
+    color: white;
 }

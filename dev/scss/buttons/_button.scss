@@ -1,39 +1,18 @@
 .button {
     &-default {
-        padding: 8px 16px;
+        padding: 0.6rem 1.7rem;
         border: 2px solid $space;
         color: $space;
         font-family: 'Inter';
-        font-size: 1.8rem;
-        &-sky {
-            padding: 8px 16px;
-            border: 2px solid $sky;
-            color: white;
-            background-color: $sky;
-            font-family: 'Inter';
-            font-size: 1.8rem;
-        }
-        &-white {
-            padding: 8px 16px;
-            border: 2px solid #eaefed;
-            color: white;
-            background-color: transparent;
-            font-family: 'Inter';
-            font-size: 1.8rem;
-        }
+        font-weight: 600;
+        font-size: 1.6rem;
     }
     &-hover {
-        padding: 8px 16px;
         border: 2px solid $tteal;
         color: $tteal;
-        font-family: 'Inter';
-        font-size: 1.8rem;
     }
     &-disabled {
-        padding: 8px 16px;
         border: 2px solid #f4eee8;
         color: #f4eee8;
-        font-family: 'Inter';
-        font-size: 1.8rem;
     }
 }

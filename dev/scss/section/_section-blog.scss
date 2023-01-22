@@ -1,11 +1,11 @@
 .blog-image_maxWidth {
-    max-width: 32.7rem;
+    max-width: 45.2rem;
+    @include media-breakpoint-up(md) {
+        max-width: 45.2rem;
+    }
 
     @include media-breakpoint-up(xl) {
         max-width: 51rem;
-    }
-    @include media-breakpoint-up(md) {
-        max-width: 45.2rem;
     }
 }
 
